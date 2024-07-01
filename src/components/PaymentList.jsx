@@ -1,5 +1,5 @@
 
-import {Payment} from "./Payment";
+import Payment from "./Payment.jsx";
 
 
 const PaymentList = ({payments}) => {
