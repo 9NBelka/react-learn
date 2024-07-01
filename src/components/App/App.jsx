@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <>
-    <PageTitle primary={true} sale={false} text="fdfddfdfdfd" />
+    <PageTitle primary={true} sale={false}>fdfddfdfdfd</PageTitle>
     <PageTitle primary={false} sale={true}/>
     <PageTitle primary={true} sale={true}/>
      {/* <PaymentList payments={payments} /> */}

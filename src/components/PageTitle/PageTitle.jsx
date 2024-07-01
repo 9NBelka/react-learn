@@ -1,7 +1,7 @@
 import clsx from "clsx" 
 import css from "./PageTitle.module.css"
 
-const PageTitle = ({primary, sale, text}) => {
+const PageTitle = ({primary, sale, children}) => {
 
   const titleClass = clsx(
     css.title,
@@ -9,7 +9,7 @@ const PageTitle = ({primary, sale, text}) => {
     sale && css.onSale
   )
   return(
-     <h1 className={titleClass}>{text}</h1>
+     <h1 className={titleClass}>{children}</h1>
   )
 }
 
