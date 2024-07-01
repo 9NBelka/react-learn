@@ -1,8 +1,9 @@
 .a{
-  color: gold;
+  color: rgb(0, 180, 75);
 }
 
 .b{
+  composes: a;
   font-size: 5vw;
 }
 

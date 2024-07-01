@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
      {/* <PaymentList payments={payments} /> */}
-     <h1 className={titleTwoClases}>Text</h1>
+     <h1 className={css.b}>Text</h1>
     </>
   )
 }
