@@ -6,11 +6,11 @@ const Payment = ({
   data: {amount, desctiption, cardNumber, isPaid},
 }) =>{
 
-  const containerClass = clsx(css.container, isPaid ? css.paid : css.pending, css.iconsColor);
+  const containerClass = clsx(css.container, isPaid ? css.paid : css.pending);
 
   return (
       <div className={containerClass}>
-        <FaBeer size="100"/>
+        <div><FaBeer className={css.iconsColor} size="40"/></div>
         <p>Amount: {amount}</p>
         <p>Status: {isPaid ? "Paid" : "Pending"} {amount}</p>
         <p>Desctiption: {desctiption}</p>

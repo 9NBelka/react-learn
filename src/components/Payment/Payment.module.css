@@ -1,5 +1,6 @@
 .container{
   border: 1px solid gold;
+  width: 100%;
   padding: 10px;
 }
 
@@ -7,10 +8,13 @@
   color: green;
 }
 
-.pendingnp{
+.pending{
   color: yellow;
 }
 
-.iconsColor svg{
-  color: rgb(252, 50, 0)
+.iconsColor{
+  display: block;
+  color: rgb(252, 50, 0);
+  width: 100px;
+  height: 100px;
 }
