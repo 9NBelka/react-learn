@@ -1,0 +1,11 @@
+.list{
+  color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw
+}
+
+.listItem{
+  color: blueviolet;
+  list-style: none;
+}

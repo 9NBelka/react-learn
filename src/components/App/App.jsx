@@ -1,10 +1,13 @@
 
 // import payments1 from "../payments1.json";
-// import PaymentList from "./PaymentList.jsx";
 // import payments from "./payments.json";
 // import clsx from "clsx" 
 // import css from "./App.module.css"
-import PageTitle from "../PageTitle/PageTitle.jsx"
+// import PaymentList from "./PaymentList/PaymentList.jsx";
+// import PageTitle from "../PageTitle/PageTitle.jsx";
+import payments from "../../payments.json";
+import PaymentList from "../PaymentList.jsx";
+
 
 const App = () => {
 
@@ -12,9 +15,10 @@ const App = () => {
 
   return (
     <>
-    <PageTitle primary={true} sale={false}>fdfddfdfdfd</PageTitle>
+    <PaymentList payments={payments}/>
+    {/* <PageTitle primary={true} sale={false}>fdfddfdfdfd</PageTitle>
     <PageTitle primary={false} sale={true}/>
-    <PageTitle primary={true} sale={true}/>
+    <PageTitle primary={true} sale={true}/> */}
      {/* <PaymentList payments={payments} /> */}
      {/* <h1 className={css.b}>Text</h1> */}
     </>

@@ -1,0 +1,16 @@
+.container{
+  border: 1px solid gold;
+  padding: 10px;
+}
+
+.paid{
+  color: green;
+}
+
+.pendingnp{
+  color: yellow;
+}
+
+.iconsColor svg{
+  color: rgb(252, 50, 0)
+}
